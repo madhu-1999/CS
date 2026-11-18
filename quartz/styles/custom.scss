@@ -1,27 +1,56 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
 /* Custom Obsidian Checkbox Icon Colors */
-li.task-list-item:has(input[data-task="*"]) > input[type="checkbox"] {
-  background-color: #e5b567 !important; /* Star - Gold/Yellow */
+li[data-task] > input[type="checkbox"] {
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 
-li.task-list-item:has(input[data-task="?"]) > input[type="checkbox"] {
-  background-color: #e87d3e !important; /* Question - Orange */
+li[data-task="*"] {
+  --checkbox-color: #e5b567;
+  color: #e5b567;
+}
+li[data-task="*"] > input[type="checkbox"] {
+  color: #e5b567 !important;
+  accent-color: #e5b567 !important;
 }
 
-li.task-list-item:has(input[data-task="!"]) > input[type="checkbox"] {
-  background-color: #d65d0e !important; /* Important - Red/Orange */
+li[data-task="?"] {
+  --checkbox-color: #e87d3e;
+}
+li[data-task="?"] > input[type="checkbox"] {
+  color: #e87d3e !important;
+  accent-color: #e87d3e !important;
 }
 
-li.task-list-item:has(input[data-task="c"]) > input[type="checkbox"] {
-  background-color: #cc241d !important; /* Con/Cross - Red */
+li[data-task="!"] {
+  --checkbox-color: #d65d0e;
+}
+li[data-task="!"] > input[type="checkbox"] {
+  color: #d65d0e !important;
+  accent-color: #d65d0e !important;
 }
 
-li.task-list-item:has(input[data-task="p"]) > input[type="checkbox"] {
-  background-color: #98971a !important; /* Pro - Green */
+li[data-task="c"] {
+  --checkbox-color: #cc241d;
+}
+li[data-task="c"] > input[type="checkbox"] {
+  color: #cc241d !important;
+  accent-color: #cc241d !important;
 }
 
-li.task-list-item:has(input[data-task="i"]) > input[type="checkbox"] {
-  background-color: #458588 !important; /* Info - Blue */
+li[data-task="p"] {
+  --checkbox-color: #98971a;
+}
+li[data-task="p"] > input[type="checkbox"] {
+  color: #98971a !important;
+  accent-color: #98971a !important;
+}
+
+li[data-task="i"] {
+  --checkbox-color: #458588;
+}
+li[data-task="i"] > input[type="checkbox"] {
+  color: #458588 !important;
+  accent-color: #458588 !important;
 }
