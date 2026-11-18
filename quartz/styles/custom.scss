@@ -6,6 +6,7 @@ li[data-task] > input[type="checkbox"] {
   border-color: transparent !important;
 }
 
+/* Important point (*) */
 li[data-task="*"] {
   --checkbox-color: #e5b567;
 }
@@ -14,6 +15,7 @@ li[data-task="*"] > input[type="checkbox"] {
   accent-color: #e5b567 !important;
 }
 
+/* Question (?) */
 li[data-task="?"] {
   --checkbox-color: #e87d3e;
 }
@@ -22,6 +24,7 @@ li[data-task="?"] > input[type="checkbox"] {
   accent-color: #e87d3e !important;
 }
 
+/* Cautionary point (!) */
 li[data-task="!"] {
   --checkbox-color: #d65d0e;
 }
@@ -30,6 +33,7 @@ li[data-task="!"] > input[type="checkbox"] {
   accent-color: #d65d0e !important;
 }
 
+/* Disadvantage (c) */
 li[data-task="c"] {
   --checkbox-color: #cc241d;
 }
@@ -38,6 +42,7 @@ li[data-task="c"] > input[type="checkbox"] {
   accent-color: #cc241d !important;
 }
 
+/* Advantage (p) */
 li[data-task="p"] {
   --checkbox-color: #98971a;
 }
@@ -46,10 +51,47 @@ li[data-task="p"] > input[type="checkbox"] {
   accent-color: #98971a !important;
 }
 
+/* Noteworthy point (i) */
 li[data-task="i"] {
   --checkbox-color: #458588;
 }
 li[data-task="i"] > input[type="checkbox"] {
   color: #458588 !important;
   accent-color: #458588 !important;
+}
+
+/* Higher/more (u) - Green/Teal */
+li[data-task="u"] {
+  --checkbox-color: #689d6a;
+}
+li[data-task="u"] > input[type="checkbox"] {
+  color: #689d6a !important;
+  accent-color: #689d6a !important;
+}
+
+/* Lower/less (d) - Red/Coral */
+li[data-task="d"] {
+  --checkbox-color: #fb4934;
+}
+li[data-task="d"] > input[type="checkbox"] {
+  color: #fb4934 !important;
+  accent-color: #fb4934 !important;
+}
+
+/* Key point (k) - Gold/Amber */
+li[data-task="k"] {
+  --checkbox-color: #fabd2f;
+}
+li[data-task="k"] > input[type="checkbox"] {
+  color: #fabd2f !important;
+  accent-color: #fabd2f !important;
+}
+
+/* General idea/My thoughts (b) - Purple */
+li[data-task="b"] {
+  --checkbox-color: #b16286;
+}
+li[data-task="b"] > input[type="checkbox"] {
+  color: #b16286 !important;
+  accent-color: #b16286 !important;
 }
