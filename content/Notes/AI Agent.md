@@ -3,7 +3,7 @@ publish: true
 aliases:
   - agent
 created: 2026-09-11 10:13
-modified: 2026-11-17 07:57
+modified: 2026-11-17 08:17
 tags:
   - AI/AgenticAI
 ---
@@ -80,9 +80,9 @@ D>Flight Booking AI Agent]
 	LLM["LLM"]
 	Expedia[("Expedia API")]
 	
-	P1["1) Searches Flights"]
-	P2["2) Picks the cheapest"]
-	P3["3) Books it"]
+	P1["Step 1: Searches Flights"]
+	P2["Step 2: Picks the cheapest"]
+	P3["Step 3: Books it"]
 	P1 ~~~ P2 ~~~ P3
 
     Output@{ shape: text, label: "Flight booked for $1200. Confirmation sent to your email" }
