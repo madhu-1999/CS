@@ -8,7 +8,6 @@ li[data-task] > input[type="checkbox"] {
 
 li[data-task="*"] {
   --checkbox-color: #e5b567;
-  color: #e5b567;
 }
 li[data-task="*"] > input[type="checkbox"] {
   color: #e5b567 !important;
