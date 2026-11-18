@@ -97,7 +97,6 @@ G ==3==> I@{ shape: text, label: "The price is $1200 economy and $3400 business 
 
 - [*] <mark style="background: #BBFABBA6;">Higher cost and effort</mark>
   Adapt the base model by training it on a smaller, domain-specific dataset.
-
 - [?] **When to fine tune?**
 
 1. **Real-time latency**: If you require low-latency responses (e.g., voice agents) that frontier reasoning models cannot provide due to their "thinking time".
