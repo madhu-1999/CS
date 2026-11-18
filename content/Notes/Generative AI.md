@@ -3,7 +3,7 @@ publish: true
 aliases:
   - genai
 created: 2026-09-11 09:23
-modified: 2026-11-17 08:09
+modified: 2026-11-17 08:24
 tags:
   - AI/GenAI
 ---
