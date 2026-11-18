@@ -78,6 +78,15 @@ li[data-task="d"] > input[type="checkbox"] {
   accent-color: #fb4934 !important;
 }
 
+/* Bookmark (b) - Red/Coral */
+li[data-task="b"] {
+  --checkbox-color: #fb4934;
+}
+li[data-task="b"] > input[type="checkbox"] {
+  color: #fb4934 !important;
+  accent-color: #fb4934 !important;
+}
+
 /* Key point (k) - Gold/Amber */
 li[data-task="k"] {
   --checkbox-color: #fabd2f;
@@ -87,11 +96,11 @@ li[data-task="k"] > input[type="checkbox"] {
   accent-color: #fabd2f !important;
 }
 
-/* General idea/My thoughts (b) - Purple */
-li[data-task="b"] {
+/* General idea/My thoughts (I) - Purple */
+li[data-task="I"] {
   --checkbox-color: #b16286;
 }
-li[data-task="b"] > input[type="checkbox"] {
+li[data-task="I"] > input[type="checkbox"] {
   color: #b16286 !important;
   accent-color: #b16286 !important;
 }
