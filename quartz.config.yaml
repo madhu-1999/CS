@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: madhu-1999.github.io/CS-Notes
+  baseUrl: madhu-1999.github.io/CS
   ignorePatterns:
     - private
     - templates
