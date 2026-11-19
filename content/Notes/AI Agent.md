@@ -116,8 +116,6 @@ D>Flight Booking AI Agent]
     LLM ==2==> Output
 ```
 
-# References
-
 [^1]: [Agentic AI vs AI Agents: Key Differences Explained](https://www.moveworks.com/us/en/resources/blog/agentic-ai-vs-ai-agents-definitions-and-differences)
 
 [^2]: [Generative AI vs AI agents vs Agentic AI - YouTube](https://www.youtube.com/watch?v=O2gerCxEXvc)

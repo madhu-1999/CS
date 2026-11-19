@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-11-16 22:57
-modified: 2026-11-17 08:10
+modified: 2026-11-18 08:07
 tags:
   - "#sql/interview"
   - "#data/interview"
@@ -55,7 +55,5 @@ WHERE rn = 1;
 > Notice that multiple entries in the `orders` table with the **same** id, have the same timestamp.
 >
 > If using `rank()`,  row 2 and 4 will have the same `rn=1` value, while `row_number()` gives both rows unique `rn` values.
-
-# References
 
 [^1]: [SQL was HARD until I Learned these 12 Patterns - YouTube](https://www.youtube.com/watch?v=cGtPup-EwrM)

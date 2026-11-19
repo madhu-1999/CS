@@ -3,7 +3,7 @@ publish: true
 aliases:
   - genai
 created: 2026-09-11 09:23
-modified: 2026-11-17 08:24
+modified: 2026-11-18 08:27
 tags:
   - AI/GenAI
 ---
@@ -109,8 +109,6 @@ G ==3==> I@{ shape: text, label: "The price is $1200 economy and $3400 business 
 2. **Use RAG:** If you need the model to reference _fresh or proprietary knowledge_
 3. **Use skills and tools**: If you need to add _procedural knowledge_ (how to perform specific tasks or use specific tools).
 4. **Reach for Fine-Tuning:** Only consider fine-tuning if you hit a specific **bottleneck** that the techniques above cannot solve
-
-# References
 
 [^1]: [Generative AI vs AI agents vs Agentic AI - YouTube](https://www.youtube.com/watch?v=O2gerCxEXvc)
 

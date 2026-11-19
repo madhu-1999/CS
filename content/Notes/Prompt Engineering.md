@@ -5,7 +5,7 @@ aliases:
   - prompting
   - prompts
 created: 2026-09-10 17:47
-modified: 2026-11-17 08:09
+modified: 2026-11-18 08:26
 tags:
   - AI/GenAI
 ---
@@ -53,11 +53,11 @@ Restricts the next predicted token to be one of the _top-K_ predicted tokens.
 
 Restricts the next predicted token to be one of the tokens whose cumulative probability $\lt$ _p_.
 
-> \*All candidates for the next predicted token are:
+> All candidates for the next predicted token are:
 >
 > 1. Sorted from highest probability to lowest probability
 > 2. Their probabilities are added cumulatively until the cutoff threshold of **p** is reached
-> 3. The set of tokens who contribute to the cumulative probability are considered to select the next predicted token\*.
+> 3. The set of tokens who contribute to the cumulative probability are considered to select the next predicted token.
 
 - [d] **Lower top-p = more factual answers**
 - [u] **Higher top-p = more diverse answers**
@@ -241,7 +241,7 @@ It **cycles** through the following steps:
 3. **Observation:** The system feeds the tool's output back to the model.
 4. **Repeat:** The model updates its plan based on the new data and continues the loop
 
-![ReAct paradigm](Assets/Prompt Engineering-1789135469921.webp)
+![ReAct paradigm](Assets/Prompt_Engineering-1789135469921.webp)
 **Source**: [Mario Fontana](https://www.linkedin.com/pulse/meet-mr-prompty-how-make-your-ai-think-act-like-human-mario-fontana/)
 
 - [p] **Reduces Hallucination:** Grounding predictions in external observations makes responses more factual.
