@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-11-26 09:13
-modified: 2026-11-26 09:16
-published: 2026-11-26T17:16:37.982Z
+modified: 2026-11-26 03:27
+published: 2026-11-26T23:27:43.168Z
 tags:
   - sql
   - postgres
 prerequisite:
-  - "[[Notes/SQL-`ORDER BY`|SQL-`ORDER BY`]]"
+  - "[SQL-`ORDER BY`](Notes/SQL-`ORDER%20BY`.md)"
 aliases:
 ---
 

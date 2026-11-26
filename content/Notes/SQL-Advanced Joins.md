@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-11-26 14:35
-modified: 2026-11-26 02:54
-published: 2026-11-26T22:54:19.280Z
+modified: 2026-11-26 03:27
+published: 2026-11-26T23:27:13.364Z
 tags:
   - sql
   - postgres
 prerequisite:
-  - "[[Notes/SQL-Joins|SQL-Joins]]"
+  - "[SQL-Joins](Notes/SQL-Joins.md)"
 aliases:
 ---
 
@@ -17,7 +17,7 @@ aliases:
 
 [^1]
 A left join that **only** returns <mark style="background: #ADCCFFA6;">rows from the left table that do not have matching rows in the right table</mark>.
-![[Assets/SQL-Joins-1795715053572.webp]]
+![SQL-Joins-1795715053572](Assets/SQL-Joins-1795715053572.webp)
 
 ```sql
 SELECT c.CustomerName
@@ -31,7 +31,7 @@ WHERE o.OrderID IS NULL;
 
 [^1]
 A right join that **only** returns <mark style="background: #ADCCFFA6;">rows from the right table that do not have matching rows in the left table</mark>.
-![[Assets/SQL-Joins-1795715583971.webp]]
+![SQL-Joins-1795715583971](Assets/SQL-Joins-1795715583971.webp)
 
 ```sql
 SELECT o.OrderID
@@ -45,7 +45,7 @@ WHERE c.CustomerID IS NULL;
 
 [^1]
 A full join that returns <mark style="background: #ADCCFFA6;">rows from both the left and right table that do not have matching rows in the right and left table respectively</mark>.
-![[Assets/SQL-Joins-1795715756845.webp]]
+![SQL-Joins-1795715756845](Assets/SQL-Joins-1795715756845.webp)
 
 ```sql
 SELECT c.CustomerName, o.OrderID

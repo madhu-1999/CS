@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-11-26 08:38
-modified: 2026-11-26 08:57
-published: 2026-11-26T16:57:08.115Z
+modified: 2026-11-26 03:27
+published: 2026-11-26T23:27:33.284Z
 tags:
   - sql
   - postgres
 prerequisite:
-  - "[[Notes/SQL-Basics|SQL-Basics]]"
+  - "[SQL-Basics](Notes/SQL-Basics.md)"
 aliases:
 ---
 
