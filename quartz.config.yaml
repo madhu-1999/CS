@@ -89,7 +89,7 @@ plugins:
       minEntries: 1        
       showByDefault: true  
       collapseByDefault: false
-      layout: modern
+      layout: legacy
     layout:
       position: right
       priority: 30
