@@ -252,6 +252,8 @@ plugins:
         - description
         - tags
         - aliases
+        - created
+        - prerequisite
       excludedProperties: []
       hidePropertiesView: false
     order: 5
