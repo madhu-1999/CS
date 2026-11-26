@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-11-20 13:48
-modified: 2026-11-21 05:21
+modified: 2026-11-25 08:08
 tags:
   - "#sql"
   - "#postgres"
@@ -25,13 +25,18 @@ tags:
 | 8              | Dell Vostro        | 800.00    | 2            |
 | 9              | iPad               | 700.00    | 3            |
 | 10             | Kindle Fire        | 150.00    | 3            |
-| 11             | Samsung Galaxy Tab | 200.00    | 3            | <u>Table</u>: Product\_Groups
+| 11             | Samsung Galaxy Tab | 200.00    | 3            |
+
+<u>Table</u>: Product\_Groups
 
 | **group\_id** | **group\_name** |
 | ------------ | -------------- |
 | 1            | Smartphone     |
 | 2            | Laptop         |
-| 3            | Tablet         | <u>Table:</u> Sales Stats
+| 3            | Tablet         |
+
+<u>Table:</u> Sales Stats
+
 | **name**       | **year** | **amount** |
 | -------------- | -------- | ---------- |
 | John Doe       | 2018     | 120000.00  |
@@ -49,7 +54,7 @@ tags:
 
 An aggregate function <mark style="background: #ADCCFFA6;">aggregates data from a set of rows into a <b>single</b> row</mark>.
 
-> [!example] **Scenario**: Calculate the average price of all products _**per product\_group**_ in the `products` table.
+> **Scenario**: Calculate the average price of all products _**per product\_group**_ in the `products` table.
 
 ```sql
 SELECT 
@@ -180,7 +185,8 @@ A more appropriate case for using `RANGE` is: <u>Sample data</u>: `inventory_aud
 | Screw         | Hardware     | 5.00      |
 | Drill Bit     | Hardware     | 15.00     |
 | Power Drill   | Tools        | 150.00    |
-**Scenario**: Find cumulative value of products which cost the same
+
+> **Scenario**: Find cumulative value of products which cost the same
 
 ```sql
 SELECT 
@@ -205,7 +211,6 @@ FROM inventory_audit;
 | Screw         | 5.00      | **10.00**       | 10.00          |
 | Drill Bit     | 15.00     | 25.00           | 25.00          |
 | Power Drill   | 150.00    | 175.00          | 175.00         |
-|               |           |                 |                |
 
 # Ranking Functions
 
