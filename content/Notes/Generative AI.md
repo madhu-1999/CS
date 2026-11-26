@@ -4,8 +4,10 @@ aliases:
   - genai
 created: 2026-09-11 09:23
 modified: 2026-11-18 08:27
+published: 2026-11-19T04:27:19.536Z
 tags:
   - AI/GenAI
+prerequisite:
 ---
 
 It is a type of AI that creates new content, such as text, images, or audio based on patterns learned from existing data.[^1]

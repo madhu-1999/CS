@@ -2,9 +2,13 @@
 publish: true
 created: 2026-11-26 08:54
 modified: 2026-11-26 08:56
+published: 2026-11-26T16:56:38.462Z
 tags:
   - sql
   - postgres
+prerequisite:
+  - "[[Notes/SQL-`SELECT`|SQL-`SELECT`]]"
+aliases:
 ---
 
 # `WHERE`

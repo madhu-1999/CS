@@ -6,8 +6,10 @@ aliases:
   - prompts
 created: 2026-09-10 17:47
 modified: 2026-11-18 08:26
+published: 2026-11-19T04:26:47.098Z
 tags:
   - AI/GenAI
+prerequisite:
 ---
 
 # What Is It?

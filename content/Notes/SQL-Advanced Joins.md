@@ -2,9 +2,13 @@
 publish: true
 created: 2026-11-26 14:35
 modified: 2026-11-26 02:54
+published: 2026-11-26T22:54:19.280Z
 tags:
   - sql
   - postgres
+prerequisite:
+  - "[[Notes/SQL-Joins|SQL-Joins]]"
+aliases:
 ---
 
 # Anti Joins

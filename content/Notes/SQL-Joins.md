@@ -1,10 +1,13 @@
 ---
 publish: true
 created: 2026-11-26 09:30
-modified: 2026-11-18 08:06
+modified: 2026-11-26 03:05
+published: 2026-11-26T23:05:13.643Z
 tags:
   - sql
   - postgres
+prerequisite:
+aliases:
 ---
 
 # Basic Joins

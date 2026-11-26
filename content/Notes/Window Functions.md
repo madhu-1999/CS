@@ -2,9 +2,12 @@
 publish: true
 created: 2026-11-20 13:48
 modified: 2026-11-25 08:08
+published: 2026-11-26T04:08:29.734Z
 tags:
   - "#sql"
   - "#postgres"
+prerequisite:
+aliases:
 ---
 
 - [i] All SQL code is written using the Postgres SQL dialect.

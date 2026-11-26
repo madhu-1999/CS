@@ -3,9 +3,12 @@ publish: true
 aliases:
   - agent
 created: 2026-09-11 10:13
-modified: 2026-11-17 08:17
+modified: 2026-11-18 08:27
+published: 2026-11-19T04:27:32.200Z
 tags:
   - AI/AgenticAI
+prerequisite:
+  - "[Generative AI](Notes/Generative%20AI.md)"
 ---
 
 # What Is It?
