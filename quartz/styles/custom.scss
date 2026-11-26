@@ -1,5 +1,13 @@
 @use "./variables.scss" as *;
 
+/* Soften bright white images in dark mode */
+:root[saved-theme="dark"] article img {
+  filter: brightness(0.88) contrast(1.05);
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
 /* Make code blocks stand out and separate consecutive blocks */
 pre {
   background-color: var(--lightgray) !important;
