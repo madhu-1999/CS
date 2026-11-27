@@ -2,12 +2,12 @@
 publish: true
 created: 2026-11-16 22:57
 modified: 2026-11-21 05:23
-published: 2026-11-22T01:23:23.333Z
+published: 2026-11-27T01:33:46.202Z
 tags:
   - "#sql/interview"
   - "#data/interview"
 prerequisite:
-  - "[Window Functions](Notes/Window%20Functions.md)"
+  - "[SQL-Window Functions](Notes/SQL-Window%20Functions.md)"
 aliases:
 ---
 

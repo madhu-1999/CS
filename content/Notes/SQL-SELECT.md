@@ -2,12 +2,12 @@
 publish: true
 created: 2026-11-26 08:38
 modified: 2026-11-26 03:27
-published: 2026-11-26T23:27:33.284Z
+published: 2026-11-27T01:38:43.678Z
 tags:
   - sql
   - postgres
 prerequisite:
-  - "[SQL-Basics](Notes/SQL-Basics.md)"
+  - "[SQL-Index](Index%20Notes/SQL-Index.md)"
 aliases:
 ---
 
