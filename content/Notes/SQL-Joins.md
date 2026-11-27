@@ -2,12 +2,12 @@
 publish: true
 created: 2026-11-26 09:30
 modified: 2026-11-26 03:28
-published: 2026-11-26T23:28:33.954Z
+published: 2026-11-27T00:36:11.364Z
 tags:
   - sql
   - postgres
 prerequisite:
-  - "[SQL-`SELECT`](Notes/SQL-`SELECT`.md)"
+  - "[SQL-SELECT](Notes/SQL-SELECT.md)"
 aliases:
 ---
 
