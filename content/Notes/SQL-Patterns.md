@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-11-16 22:57
-modified: 2026-11-21 05:23
-published: 2026-11-27T01:33:46.202Z
+modified: 2026-11-26 05:44
+published: 2026-11-27T01:44:36.504Z
 tags:
   - "#sql/interview"
   - "#data/interview"
@@ -74,5 +74,7 @@ WHERE rn = 1;
 |Jan 03|800
 |Jan 04|2000
 |Jan 05|1,200
+
+#
 
 [^1]: [SQL was HARD until I Learned these 12 Patterns - YouTube](https://www.youtube.com/watch?v=cGtPup-EwrM)
